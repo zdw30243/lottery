@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StationSettings>
+    <Stations>
+      <Station Version="2.0.2" StationID="ITDG_S03-2FAP-05_01_FCT" MachineID="LEB001" Product="BHC203" TestPlanPath="TestPlan" SoftwareName="左耳包功能测试站" Debug="False" SFC="True" UpLoad="True" ApplyResult="True" UnitNum="1" LineId="1" EMP_NO="1600840" ServerIP="10.16.204.73" BDAHeader="000DF" BDALength="12" Place="QX" EARSIDE="1" Type="2" />
+    <statistics Unit1="26" Unit2="2351" Unit3="2118" Unit4="2342" Unit5="2367" Unit6="2362" Unit7="2140" Unit8="2318" />
+    <Voltates Unit1="101" Unit2="102" Unit3="103" Unit4="104" Unit5="105" Unit6="106" Unit7="107" Unit8="108" />
+     </Stations>
+</StationSettings>

@@ -1,0 +1,65 @@
+期号统一格式yyyyMMdd001
+cqssc 重庆时时彩
+
+<userInfo 用户信息表>
+Uid//没加密id
+money//余额
+realName//真实姓名
+netName//网名，用户自己起的名字
+userName//用户名
+Pwd//密码
+QQ
+bankCard//银行卡号
+bankAdress//银行地址
+bankName//银行名字
+totalSave//累计存款
+tatalTake//累计取款
+registTime//注册时间
+latelyLogin//最近登陆时间
+
+<Bet  投注表>
+orderNum 订单编号
+userName//用户名，必须11位手机号
+netName//网名，用户自己起的名字
+period//期号
+singleMoney//每注金额
+money//下注总额
+position//位置
+positionType//位置类型
+betStatus//投注状态（未开奖，已开奖）
+winMoney//中奖金额
+betType//投注彩种
+betTime//投注的时间
+
+
+<cqsscResult> 重庆开奖结果表------
+date//2000年01月01日
+qishu//001格式期数
+period//期号yyyyMMdd+001
+resultBall //"0-0-0-0-0"
+result//详细结果"0-0-0-0-0 1球单 ..."
+resultForList//用于查询开奖结果
+stopBet//（截止，已开奖）
+
+
+<message> 消息表
+idNews//消息排号
+idSend//发送者id
+idReceive//接收者id
+netName 
+news //内容
+status //状态（已读，未读）
+source//来源
+time//发送时间
+remind//提醒
+
+
+《tongGao》//通告表
+id
+message  //内容
+
+《peiLvTable》//赔率表
+peiLv//赔率
+betType//彩种
+positionType//投注类型
+
