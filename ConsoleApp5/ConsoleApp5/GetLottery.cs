@@ -91,7 +91,7 @@ namespace ConsoleApp5
         public  string getResult()
         {
 
-            System.Net.HttpWebRequest request = (HttpWebRequest)HttpWebRequest.Create("https://bzbz7.bz/ssc/List.Aspx?Cid=null&v=1");    //创建一个请求示例
+            System.Net.HttpWebRequest request = (HttpWebRequest)HttpWebRequest.Create("https://www.111jbw.biz/ssc/List.aspx");    //创建一个请求示例
             HttpWebResponse response = (HttpWebResponse)request.GetResponse();  //获取响应，即发送请求
             Stream responseStream = response.GetResponseStream();
             StreamReader streamReader = new StreamReader(responseStream, Encoding.UTF8);
